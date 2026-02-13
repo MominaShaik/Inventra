@@ -1,0 +1,125 @@
+/* src/main/resources/static/css/style.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.split-screen {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left Pane: Green Branding Section */
+.left-pane {
+    background-color: #10b981; /* This is the specific Inventra green */
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.left-pane .logo-box {
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+
+.left-pane h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.left-pane p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+/* Right Pane: Login Form Section */
+.right-pane {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.form-wrapper {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.form-wrapper h2 {
+    font-weight: 800;
+    color: #1e293b;
+    margin-bottom: 5px;
+}
+
+.form-wrapper .subtitle {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    font-size: 0.75rem;
+    font-weight: 800;
+    color: #475569;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-control {
+    background-color: #f1f5f9;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.btn-signin {
+    background-color: #10b981;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    margin-top: 15px;
+}
+
+.footer-links a {
+    color: #10b981;
+    text-decoration: none;
+    font-weight: 600;
+}
+body, html { height: 100%; margin: 0; font-family: 'Inter', sans-serif; }
+.split-screen { display: flex; height: 100vh; }
+
+.left-pane {
+    background-color: #10b981; /* Precise Inventra Green */
+    color: white; width: 50%; display: flex; flex-direction: column;
+    justify-content: center; align-items: center; text-align: center;
+}
+.left-pane h1 { font-size: 4rem; font-weight: 800; margin: 0; }
+
+.right-pane { width: 50%; display: flex; justify-content: center; align-items: center; background-color: white; }
+.form-container { width: 100%; max-width: 400px; padding: 20px; }
+.btn-main { background-color: #10b981; color: white; border: none; padding: 12px; width: 100%; border-radius: 8px; font-weight: 600; cursor: pointer; }
+input { width: 100%; background-color: #f1f5f9; border: none; padding: 12px; border-radius: 8px; margin-bottom: 20px; box-sizing: border-box; }
